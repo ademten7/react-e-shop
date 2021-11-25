@@ -1,0 +1,82 @@
+.cart {
+    background-color: rgb(120, 201, 233);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-header {
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3), -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+    .cart-icon {
+        margin-right: 20px;
+    }
+}
+
+.cart-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-product {
+    color: whitesmoke;
+    background-color: rgb(157, 179, 179);
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+    margin: 2em;
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    .item-title {
+        text-align: justify;
+    }
+    .item-quantity {
+        font-size: 1.5em;
+        .pieces {
+            color: rgb(5, 110, 151);
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    .btn {
+        background-color: black;
+        color: whitesmoke;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.btn-pay {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin: 0 auto;
+    width: 10%;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.product-class-name {
+    text-decoration: none;
+    color: rgb(5, 110, 151);
+}
+
+.payment {
+    margin-top: 2em;
+    background-color: blanchedalmond;
+    padding: 3em;
+    display: grid;
+    place-items: center;
+}

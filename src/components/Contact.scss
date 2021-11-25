@@ -1,0 +1,29 @@
+.contact-all {
+    display: grid;
+    place-items: center;
+}
+
+.contact-page {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    margin-top: 5em;
+    background-color: black;
+    padding: 2px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3), -8px -8px 12px 0 rgba(0, 0, 0, 0.25);
+    input,
+    textarea {
+        border: none;
+        border-radius: 8px;
+    }
+}
+
+.button-contact {
+    padding: 5px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}

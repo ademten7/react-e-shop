@@ -1,0 +1,44 @@
+.single-product {
+    border-radius: 15px;
+    margin: 3em 3em;
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+    .image {
+        display: grid;
+        place-items: center;
+        margin-bottom: 2em;
+        &:hover {
+            transform: scale(1.5);
+        }
+        img {
+            margin-top: 2em;
+        }
+    }
+    .title {
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 0 auto;
+        width: 50%;
+        box-shadow: 12px 12px 16px 0 rgba(131, 128, 128, 0.3), -8px -8px 12px 0 rgba(0, 0, 0, 0.25);
+    }
+    .description {
+        padding: 20px;
+        font-size: 1.5em;
+        color: gray;
+        text-align: justify;
+    }
+    .discount {
+        font-size: 2.5em;
+        color: red;
+        text-align: center;
+    }
+    .normal {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .rate {
+        display: grid;
+        place-items: center;
+        margin-bottom: 4em;
+    }
+}
